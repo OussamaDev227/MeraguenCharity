@@ -1,19 +1,32 @@
 export const MONTHLY_FEE = 500;
-
+let month = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
 export const generateMonths = () => {
   return [
-    { index: 0, name: "مارس" },
-    { index: 1, name: "أبريل" },
-    { index: 2, name: "مايو" },
-    { index: 3, name: "يونيو" },
-    { index: 4, name: "يوليو" },
-    { index: 5, name: "أغسطس" },
-    { index: 6, name: "سبتمبر" },
-    { index: 7, name: "أكتوبر" },
-    { index: 8, name: "نوفمبر" },
-    { index: 9, name: "ديسمبر" },
-    { index: 10, name: "يناير" },
-    { index: 11, name: "فبراير" }
+    { index: 0, name: "مارس" ,month:month[2]},
+    { index: 1, name: "أبريل",month:month[3]}, 
+    { index: 2, name: "مايو" ,month:month[4] },
+    { index: 3, name: "يونيو" ,month:month[5]},
+    { index: 4, name: "يوليو", month:month[6] },
+    { index: 5, name: "أغسطس", month:month[7] },
+    { index: 6, name: "سبتمبر" ,month:month[8]},
+    { index: 7, name: "أكتوبر" ,month:month[9]},
+    { index: 8, name: "نوفمبر" ,month:month[10]},
+    { index: 9, name: "ديسمبر" ,  month:month[11]},
+    { index: 10, name: "يناير" ,  month:month[0]},
+    { index: 11, name: "فبراير" ,  month:month[1]},
   ];
 };
 

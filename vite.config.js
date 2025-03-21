@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://applicable-gaby-oussama01-baf39923.koyeb.app", // استخدام القيمة من .env
+        target: "https://charityserver.runasp.net", // استخدام القيمة من .env
       },
     },
   },
